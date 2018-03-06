@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Shader FX">
+      <UniqueIdentifier>{2adbb555-9ccf-4134-94e3-1c18b4077bad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effects11">
+      <UniqueIdentifier>{f33968ca-2732-4a58-87dc-81a3180a7190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DX11">
+      <UniqueIdentifier>{d02704f1-cf6a-41d3-968a-4b01e41579c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XNA_Collision">
+      <UniqueIdentifier>{9d5810b6-70c4-41bb-991a-b317c07ce0ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header Files\Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\MathHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\GameTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\Binary\EffectBinaryFormat.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\Binary\EffectStates11.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\Binary\SOParser.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\Binary\EffectStateBase11.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\Inc\d3dx11effect.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\Inc\d3dxGlobal.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\Inc\d3dx11dbg.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\pchfx.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\Effect.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects11\EffectLoad.h">
+      <Filter>Effects11</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Shader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX11tex.h">
+      <Filter>DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX11async.h">
+      <Filter>DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX11core.h">
+      <Filter>DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DX11.h">
+      <Filter>DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\LocalCoordinateSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Object.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XNACollision\xnacollision.h">
+      <Filter>XNA_Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\TexturesResource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\File.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Shadow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\KalenEngine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\DXApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\BinaryFileRead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Render.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\AssetBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\FiltersWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\ImageViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\KLMeshViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\LodInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\MainFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\MaterialInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Gizmo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Layer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\KLMESH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\KLMESH_Buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\BinaryFileWrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\DxAppKLMeshViever.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header Files\Octree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\GameTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\MathHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Shader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\EffectAPI.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\EffectLoad.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\EffectNonRuntime.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\EffectReflection.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\EffectRuntime.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\d3dxGlobal.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Effects11\d3dx11dbg.cpp">
+      <Filter>Effects11</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\LocalCoordinateSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="XNACollision\xnacollision.cpp">
+      <Filter>XNA_Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\TexturesResource.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\File.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\WaitDialog.cpp">
+      <Filter>XNA_Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Shadow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\DXApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\KalenEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\BinaryFileRead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Render.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\AssetBrowser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\FiltersWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\ImageViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\KLMeshViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\LodInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\MainFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\MaterialInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Gizmo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Layer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\KLMESH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\KLMESH_Buffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\BinaryFileWrite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\DxAppKLMeshViever.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source Files\Octree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource Files\KalenEngineDX11.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="fx\FX_Shader.fx">
+      <Filter>Shader FX</Filter>
+    </CustomBuild>
+    <CustomBuild Include="fx\FX_Shader_Shadow.fx">
+      <Filter>Shader FX</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
